@@ -36,7 +36,7 @@ const products = [{
 }];
 
 const Store = () => {
-  const [icon, setIcon] = useState("view-module");
+  const [icon, setIcon] = useState("view_пmodule");
   const onSwitch = () => {
     setIcon((icon) => (icon === "view_module" ? "view_list" : "view_module"));
   }

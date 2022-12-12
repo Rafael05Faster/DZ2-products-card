@@ -18,4 +18,4 @@ const CardsViewItem = ({name, price, color, img}) => {
   );
 };
 
-export default CardsViewItem
+export default CardsViewItem;

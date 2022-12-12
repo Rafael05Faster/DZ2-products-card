@@ -13,7 +13,6 @@
 .product-wrapper__view-mode{
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
 }
 
 .card_view {
@@ -36,11 +35,13 @@
 
 .card img {
   width: 250px;
+  margin-left: 25px;  
 }
 
 .card-product__image {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .card-product__view img {
